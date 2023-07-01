@@ -1,0 +1,25 @@
+{
+  "name": "@justchat/koishi-plugin-service",
+  "version": "0.0.0-development",
+  "description": "A plugin for Koishi.js to provide service of justchat.",
+  "main": "lib/index.js",
+  "keywords": [
+    "koishi",
+    "Koishi.js",
+    "chatbot"
+  ],
+  "homepage": "https://github.com/CJGroup/justchat-service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CJGroup/justchat-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CJGroup/justchat-service/issues"
+  },
+  "author": "ConstasJ <2020212726@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
