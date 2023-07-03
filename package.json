@@ -9,6 +9,9 @@
     "chatbot"
   ],
   "homepage": "https://github.com/CJGroup/justchat-service",
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/CJGroup/justchat-service.git"
