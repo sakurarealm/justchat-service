@@ -28,7 +28,7 @@
     "koishi": "^4.13.5"
   },
   "dependencies": {
-    "justchat-mc": "^1.0.3",
+    "justchat-mc": "^1.1.1",
     "uuid": "^9.0.0"
   }
 }
