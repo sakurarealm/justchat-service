@@ -1,5 +1,5 @@
 import { Context, Schema, Service } from "koishi";
-import { JustChatServer } from 'justchat-mc'
+import { JustChatServer, SendChatMessage, SendListMessage, SimpleClient } from 'justchat-mc'
 import { v4 as uuidv4 } from "uuid";
 
 declare module 'koishi' {
@@ -52,9 +52,19 @@ export class JustChatService extends Service {
             });
         });
     }
-
+    // 获取服务器信息
     public getClientList(){
         return this.server.getClientList();
+    }
+
+    // 发送聊天消息
+    public sendChatMessage(message: SendChatMessage, client: SimpleClient){
+        return this.server.sendChatMessage(message, client);
+    }
+
+    // 发送列表消息
+    public sendListMessage(message: SendListMessage, client: SimpleClient){
+        return this.server.sendListMessage(message, client);
     }
 }
 
