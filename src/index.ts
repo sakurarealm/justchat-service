@@ -2,6 +2,12 @@ import { Context, Schema, Service } from "koishi";
 import { JustChatServer } from 'justchat-mc'
 import { v4 as uuidv4 } from "uuid";
 
+declare module 'koishi' {
+    interface Context {
+        justchat: JustChatService;
+    }
+}
+
 interface Config {
     port: number;
     host?: string;
