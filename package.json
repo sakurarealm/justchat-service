@@ -1,6 +1,6 @@
 {
   "name": "@justchat/koishi-plugin-service",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "A plugin for Koishi.js to provide service of justchat.",
   "main": "lib/index.js",
   "types": "src/index.ts",
