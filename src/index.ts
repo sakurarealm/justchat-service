@@ -45,30 +45,49 @@ export class JustChatService extends Service {
     }
 
     protected async stop(): Promise<void> {
-        await new Promise<void>((resolve, reject) => {
+        return await new Promise<void>((resolve, reject) => {
             this.server.close((err: any) => {
                 if(err) reject(err);
                 else resolve();
             });
         });
     }
-    // 获取服务器信息
+    // 获取客户端列表
+    // Get client list
     public getClientList(){
         return this.server.getClientList();
     }
 
     // 发送聊天消息
+    // Send a chat message
     public sendChatMessage(message: SendChatMessage, client: SimpleClient){
         return this.server.sendChatMessage(message, client);
     }
 
     // 发送列表消息
+    // Send a list message
     public sendListMessage(message: SendListMessage, client: SimpleClient){
         return this.server.sendListMessage(message, client);
     }
+    
+    // 为单个客户端注册消息监听器
+    // Register a message listener for a single client
+    public registerChatListener(client: SimpleClient, listener: (message: any) => void){
+        return this.server.on("chat", (message:SendChatMessage, cli: SimpleClient) => {
+            if( client.name === cli.name && client.uuid === cli.uuid) listener(message);
+        });
+    }
+
+    // 为单个客户端注册列表包监听器
+    // Register a list message listener for a single client
+    public registerListListener(client: SimpleClient, listener: (message: any) => void){
+        return this.server.on("list", (message:SendListMessage, cli: SimpleClient) => {
+            if( client.name === cli.name && client.uuid === cli.uuid) listener(message);
+        });
+    }
 }
 
-export const name = 'justchat-service';
+export const name = '@justchat/service';
 
 export function apply(ctx: Context, config: Config){
     ctx.plugin(JustChatService, config);
