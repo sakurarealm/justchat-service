@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.2",
   "description": "A plugin for Koishi.js to provide service of justchat.",
   "main": "lib/index.js",
-  "types": "src/index.ts",
+  "types": "lib/index.d.ts",
   "keywords": [
     "koishi",
     "Koishi.js",
