@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "justchat-mc": "^1.1.1",
+    "koishi-plugin-adapter-justchat": "^2.0.3",
     "uuid": "^9.0.0"
   },
   "publishConfig": {
