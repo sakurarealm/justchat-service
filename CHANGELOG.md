@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/CJGroup/justchat-service/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2023-07-14)
+
+
+### Bug Fixes
+
+* make it works ([4916bca](https://github.com/CJGroup/justchat-service/commit/4916bca0446dc15e3ed16dbae59c2426313a8e65))
+
 # [1.0.0-alpha.4](https://github.com/CJGroup/justchat-service/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2023-07-07)
 
 
