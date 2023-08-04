@@ -5,7 +5,6 @@ import {
   SendListMessage,
   SimpleClient,
 } from "@sakurarealm/justchat-mc";
-import { JustChatBot } from "koishi-plugin-adapter-justchat";
 import { v4 as uuidv4 } from "uuid";
 
 declare module "koishi" {
@@ -47,12 +46,6 @@ export class JustChatService extends Service {
       name: this.config.name || "JustChat Server",
       id: this.config.id || uuidv4(),
     });
-    this.server.on('register',(client: Required<SimpleClient>)=>{
-        ctx.plugin(JustChatBot, {
-            name: client.name,
-            id: client.uuid,
-        })
-    })
   }
 
   protected async start(): Promise<void> {

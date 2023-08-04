@@ -26,17 +26,16 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/uuid": "^9.0.2",
-    "koishi": "^4.13.5",
-    "semantic-release": "^21.0.6",
+    "koishi": "^4.14.0",
+    "semantic-release": "^21.0.7",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "koishi": "^4.13.5"
+    "koishi": "^4.14.0"
   },
   "dependencies": {
-    "@sakurarealm/justchat-mc": "^1.0.0",
-    "koishi-plugin-adapter-justchat": "^2.0.3",
+    "@sakurarealm/justchat-mc": "^1.2.0",
     "uuid": "^9.0.0"
   }
 }
