@@ -4,7 +4,7 @@ import {
   SendChatMessage,
   SendListMessage,
   SimpleClient,
-} from "justchat-mc";
+} from "@sakurarealm/justchat-mc";
 import { JustChatBot } from "koishi-plugin-adapter-justchat";
 import { v4 as uuidv4 } from "uuid";
 

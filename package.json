@@ -1,5 +1,5 @@
 {
-  "name": "@justchat/koishi-plugin-service",
+  "name": "@sakurarealm/koishi-plugin-justchat-service",
   "version": "1.0.0-alpha.6",
   "description": "A plugin for Koishi.js to provide service of justchat.",
   "main": "lib/index.js",
@@ -9,16 +9,16 @@
     "Koishi.js",
     "chatbot"
   ],
-  "homepage": "https://github.com/CJGroup/justchat-service",
+  "homepage": "https://github.com/sakurarealm/justchat-service",
   "scripts": {
     "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CJGroup/justchat-service.git"
+    "url": "https://github.com/sakurarealm/justchat-service.git"
   },
   "bugs": {
-    "url": "https://github.com/CJGroup/justchat-service/issues"
+    "url": "https://github.com/sakurarealm/justchat-service/issues"
   },
   "author": "ConstasJ <2020212726@qq.com>",
   "license": "MIT",
@@ -35,11 +35,8 @@
     "koishi": "^4.13.5"
   },
   "dependencies": {
-    "justchat-mc": "^1.1.2",
+    "@sakurarealm/justchat-mc": "^1.0.0",
     "koishi-plugin-adapter-justchat": "^2.0.3",
     "uuid": "^9.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
