@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sakurarealm/justchat-service/compare/v1.0.0...v1.0.1) (2023-08-07)
+
+
+### Bug Fixes
+
+* 升级@sakurarealm/justchat-mc至1.3.0 ([06eb2a5](https://github.com/sakurarealm/justchat-service/commit/06eb2a5d649ba5ef29d67114b6b075bd27d890a0))
+
 # 1.0.0 (2023-08-04)
 
 
