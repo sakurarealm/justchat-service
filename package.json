@@ -35,7 +35,7 @@
     "koishi": "^4.14.0"
   },
   "dependencies": {
-    "@sakurarealm/justchat-mc": "^1.3.0",
+    "@sakurarealm/justchat-mc": "^1.3.1",
     "uuid": "^9.0.0"
   }
 }

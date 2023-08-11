@@ -113,6 +113,12 @@ export class JustChatService extends Service {
   public addRegistrationListener(listener: (cli: SimpleClient) => void) {
     return this.server.on("register", listener);
   }
+
+  // 注册“客户端断开连接”监听器
+  // Register a listener for "client disconnect" event
+  public addDisconnectionListener(listener: (cli: SimpleClient) => void ){
+    return this.server.on("disconnection", listener);
+  }
 }
 
 export const name = "@justchat/service";
