@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/sakurarealm/justchat-service/compare/v1.0.1...v1.1.0) (2023-08-11)
+
+
+### Features
+
+* 添加断联事件监听方法 ([ab02797](https://github.com/sakurarealm/justchat-service/commit/ab02797587fc327a8bf5f2ea16c256e403dc841c))
+
 ## [1.0.1](https://github.com/sakurarealm/justchat-service/compare/v1.0.0...v1.0.1) (2023-08-07)
 
 
