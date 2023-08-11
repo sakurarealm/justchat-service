@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/sakurarealm/justchat-service/compare/v1.1.0...v1.1.1) (2023-08-11)
+
+
+### Bug Fixes
+
+* module格式不对 ([50ea344](https://github.com/sakurarealm/justchat-service/commit/50ea344d827301079b17cca5ce5188d9d3ee3beb))
+
 # [1.1.0](https://github.com/sakurarealm/justchat-service/compare/v1.0.1...v1.1.0) (2023-08-11)
 
 
