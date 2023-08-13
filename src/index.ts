@@ -97,7 +97,7 @@ export class JustChatService extends Service {
   // Register a list message listener for a single client
   public registerListListener(
     client: SimpleClient,
-    listener: (message: any) => void
+    listener: (message: SendListMessage) => void
   ) {
     return this.server.on(
       "list",
