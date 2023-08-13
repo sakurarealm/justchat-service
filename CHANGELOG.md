@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/sakurarealm/justchat-service/compare/v1.1.2...v1.1.3) (2023-08-13)
+
+
+### Bug Fixes
+
+* upgrade deps ([618ff56](https://github.com/sakurarealm/justchat-service/commit/618ff5636ec949105fd5cc92294781d4c335b18c))
+
 ## [1.1.2](https://github.com/sakurarealm/justchat-service/compare/v1.1.1...v1.1.2) (2023-08-13)
 
 
